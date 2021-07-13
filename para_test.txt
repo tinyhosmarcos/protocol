@@ -1,0 +1,7 @@
+./oserver.out       //corre server con ip actual y escuchando puerto 1200
+//////oslave.out <ipMaster><portMaster><ip propia><puerto propio>
+./oslave.out 192.168.001.034 1200 192.168.001.034 1210      //añade un esclavo en puerto 1210
+./oslave.out 192.168.001.034 1200 192.168.001.034 1211      //añade un esclavo en puerto 1211
+./oclient  //hace un par de accesos a la bd
+
+ALGUNAS IPS ESTAN HARDCODEADAS REVISA SI QUEIRES PROBAR
